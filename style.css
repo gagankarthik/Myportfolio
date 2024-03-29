@@ -64,7 +64,8 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
 
   @media screen and (max-width: 800px) {
     .contact {
-      width: 100%;
+      max-width: 100%;
+      margin: 52px;
       justify-content: center; /* The width is 100%, when the viewport is 800px or smaller */
     }
   }
